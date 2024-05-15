@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>React Task Manager</title>
+</head>
+<body>
+  <div id="root"></div>
+
+  <!-- React scripts -->
+  <script src="https://unpkg.com/react@18.2.0/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.development.js"></script>
+
+  <!-- Axios for making HTTP requests -->
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+  <!-- Babel for compiling JSX -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <!-- Your React code -->
+  <script type="text/babel">
+    // Your React code will go here
+  </script>
+  <script type="text/babel">
+    // React component example
+    function App() {
+      return (
+        <div>
+          <h1>Welcome to React Task Manager</h1>
+          <p>This is a simple React application.</p>
+        </div>
+      );
+    }
+  
+    // Render the App component
+    ReactDOM.render(<App />, document.getElementById('root'));
+  </script>
+</body>
+</html>
